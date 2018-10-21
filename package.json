@@ -1,6 +1,6 @@
 {
   "name": "hangouts-chat-webhook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fluent api to send webhook to Hangouts chat",
   "repository": {
     "type": "git",
