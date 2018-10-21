@@ -10,7 +10,7 @@
 ## Installation
 
 ```sh
-$ npm install --save hangout-chat-tester
+$ npm install --save hangouts-chat-webhook
 ```
 
 ## Usage
