@@ -1,0 +1,37 @@
+{
+  "name": "hangouts-chat-webhook",
+  "version": "0.1.0",
+  "description": "Fluent api to send webhook to Hangouts chat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tchiotludo/hangouts-chat-webhook.git"
+  },
+  "keywords": [
+    "hangouts-chat",
+    "google-chat",
+    "webhook"
+  ],
+  "author": "tchiotludo",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build:ts && npm run lint:ts",
+    "build:ts": "tsc",
+    "watch": "npm run watch:ts",
+    "watch:ts": "tsc -w",
+    "lint": "npm run lint:ts && ",
+    "lint:ts": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.11.7",
+    "coveralls": "^3.0.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.9.1",
+    "typescript": "^3.1.3"
+  }
+}
